@@ -29,7 +29,7 @@ const TwitterCard = () => {
   return (
     <StyledTwitterCard>
       <CardBody>
-        <Heading size="xl" mb="24px" color="rgb(215, 76, 200)">
+        <Heading size="xl" mb="24px" color="rgb(241, 149, 169)">
           {TranslateString(10003, 'Announcements')}
         </Heading>
         <Timeline

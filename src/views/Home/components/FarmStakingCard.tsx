@@ -31,7 +31,7 @@ const CardImage = styled.img`
 `
 
 const Label = styled.div`
-  color: rgb(215, 76, 200);
+  color: rgb(241, 149, 169);
   font-size: 14px;
 `
 
@@ -68,7 +68,7 @@ const FarmedStakingCard = () => {
   return (
     <StyledFarmStakingCard>
       <CardBody>
-        <Heading size="xl" mb="24px"color="rgb(215, 76, 200)">
+        <Heading size="xl" mb="24px"color="rgb(241, 149, 169)">
           {TranslateString(542, 'Farms & Staking')}
         </Heading>
         <CardImage src="/images/egg/slowpoke_sprite.png" alt="slow logo" width={64} height={64} />

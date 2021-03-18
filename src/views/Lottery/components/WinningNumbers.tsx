@@ -224,7 +224,7 @@ const StyledCardHeader = styled.div`
 const CardWrapper = styled.div``
 
 const Title = styled.div`
-  color: rgb(215, 76, 200);
+  color: rgb(241, 149, 169);
   font-size: 24px;
   width: 50vw;
   text-align: center;

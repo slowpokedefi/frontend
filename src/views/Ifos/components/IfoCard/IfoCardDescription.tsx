@@ -24,7 +24,7 @@ const Divider = styled.div`
 const ToggleButton = styled.button`
   background: transparent;
   border: none;
-  color: rgb(215, 76, 200);
+  color: rgb(241, 149, 169);
   cursor: pointer;
   display: block;
   font-weight: 600;

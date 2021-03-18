@@ -22,7 +22,7 @@ const Details = styled.div`
 `
 
 const Countdown = styled.div`
-  color: rgb(215, 76, 200);
+  color: rgb(241, 149, 169);
   font-size: 20px;
   font-weight: 600;
   text-align: center;

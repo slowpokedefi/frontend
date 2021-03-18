@@ -16,7 +16,7 @@ const Wrapper = styled.div`
   }
 
   svg {
-    fill: rgb(215, 76, 200);
+    fill: rgb(241, 149, 169);
   }
 `
 

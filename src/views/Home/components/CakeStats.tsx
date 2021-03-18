@@ -40,28 +40,28 @@ const CakeStats = () => {
   return (
     <StyledCakeStats>
       <CardBody>
-        <Heading size="xl" mb="24px"color="rgb(215, 76, 200)">
+        <Heading size="xl" mb="24px"color="rgb(241, 149, 169)">
           {TranslateString(534, 'SLOW Stats')}
         </Heading>
         <Row>
-          <Text fontSize="14px"color="rgb(215, 76, 200)">{TranslateString(10005, 'Market Cap')}</Text>
+          <Text fontSize="14px"color="rgb(241, 149, 169)">{TranslateString(10005, 'Market Cap')}</Text>
           <CardValue fontSize="14px" value={getBalanceNumber(marketCap)} decimals={0} prefix="$" />
         </Row>
         <Row>
-          <Text fontSize="14px"color="rgb(215, 76, 200)">{TranslateString(536, 'Total Minted')}</Text>
+          <Text fontSize="14px"color="rgb(241, 149, 169)">{TranslateString(536, 'Total Minted')}</Text>
           {totalSupply && <CardValue fontSize="14px" value={getBalanceNumber(totalSupply)} decimals={0} />}
         </Row>
         <Row>
-          <Text fontSize="14px"color="rgb(215, 76, 200)">{TranslateString(538, 'Total Burned')}</Text>
+          <Text fontSize="14px"color="rgb(241, 149, 169)">{TranslateString(538, 'Total Burned')}</Text>
           <CardValue fontSize="14px" value={getBalanceNumber(burnedBalance)} decimals={0} />
         </Row>
         <Row>
-          <Text fontSize="14px"color="rgb(215, 76, 200)">{TranslateString(10004, 'Circulating Supply')}</Text>
+          <Text fontSize="14px"color="rgb(241, 149, 169)">{TranslateString(10004, 'Circulating Supply')}</Text>
           {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} decimals={0} />}
         </Row>
         <Row>
-          <Text fontSize="14px"color="rgb(215, 76, 200)">{TranslateString(540, 'New SLOW/block')}</Text>
-          <Text bold fontSize="14px"color="rgb(215, 76, 200)">{eggPerBlock}</Text>
+          <Text fontSize="14px"color="rgb(241, 149, 169)">{TranslateString(540, 'New SLOW/block')}</Text>
+          <Text bold fontSize="14px"color="rgb(241, 149, 169)">{eggPerBlock}</Text>
         </Row>
       </CardBody>
     </StyledCakeStats>

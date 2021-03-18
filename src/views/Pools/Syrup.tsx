@@ -103,7 +103,7 @@ const Farm: React.FC = () => {
 
 const Hero = styled.div`
   align-items: center;
-  color: rgb(215, 76, 200);
+  color: rgb(241, 149, 169);
   display: grid;
   grid-gap: 32px;
   grid-template-columns: 1fr;

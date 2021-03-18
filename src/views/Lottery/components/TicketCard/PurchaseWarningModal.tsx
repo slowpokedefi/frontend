@@ -34,7 +34,7 @@ const TicketsList = styled.div`
   text-align: left;
   overflow-y: auto;
   max-height: 400px;
-  color: rgb(215, 76, 200);
+  color: rgb(241, 149, 169);
 `
 
 export default WarningModal

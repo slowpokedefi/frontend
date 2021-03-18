@@ -61,7 +61,7 @@ const TicketsList = styled.div`
   text-align: center;
   overflow-y: auto;
   max-height: 400px;
-  color: rgb(215, 76, 200);
+  color: rgb(241, 149, 169);
 `
 
 const StyledButton = styled(Button)`

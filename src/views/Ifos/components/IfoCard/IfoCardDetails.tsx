@@ -21,7 +21,7 @@ const StyledIfoCardDetails = styled.div`
 
 const Item = styled.div`
   align-items: center;
-  color: rgb(215, 76, 200);
+  color: rgb(241, 149, 169);
   display: flex;
 `
 

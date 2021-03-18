@@ -24,10 +24,10 @@ const TicketsList = styled.div`
   padding-right: 5em;
   overflow-y: auto;
   max-height: 400px;
-  color: rgb(215, 76, 200);
+  color: rgb(241, 149, 169);
 `
 const Title = styled.div`
-  color: rgb(215, 76, 200);
+  color: rgb(241, 149, 169);
   font-size: 20px;
   text-align: center;
   font-weight: 600;

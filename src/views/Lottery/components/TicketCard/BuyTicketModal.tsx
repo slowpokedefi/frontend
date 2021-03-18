@@ -116,7 +116,7 @@ const Tips = styled.div`
   margin-left: 0.4em;
   font-size: 14px;
   font-weight: 600;
-  color: rgb(215, 76, 200);
+  color: rgb(241, 149, 169);
 `
 
 const Final = styled.div`
@@ -124,7 +124,7 @@ const Final = styled.div`
   text-align: center;
   font-size: 20px;
   font-weight: 600;
-  color: rgb(215, 76, 200);
+  color: rgb(241, 149, 169);
 `
 const Announce = styled.div`
   margin-top: 1em;

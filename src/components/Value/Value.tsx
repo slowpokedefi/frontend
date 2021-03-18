@@ -43,7 +43,7 @@ const Value: React.FC<ValueProps> = ({ value, decimals, fontSize = '30px' }) => 
 
 const StyledValue = styled.div`
   font-family: 'Roboto Mono', monospace;
-  color: rgb(215, 76, 200);
+  color: rgb(241, 149, 169);
   font-size: 30px;
   font-weight: 900;
 `

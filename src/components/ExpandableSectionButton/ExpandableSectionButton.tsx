@@ -14,14 +14,14 @@ const Wrapper = styled.div`
   cursor: pointer;
 
   svg {
-    fill: rgb(215, 76, 200);
+    fill: rgb(241, 149, 169);
   }
 `
 
 const ExpandableSectionButton: React.FC<ExpandableSectionButtonProps> = ({ onClick, expanded }) => {
   return (
     <Wrapper aria-label="Hide or show expandable content" role="button" onClick={() => onClick()}>
-      <Text color="rgb(215, 76, 200)" bold>
+      <Text color="rgb(241, 149, 169)" bold>
         {expanded ? 'Hide' : 'Details'}
       </Text>
       {expanded ? <ChevronUpIcon /> : <ChevronDownIcon />}

@@ -31,7 +31,7 @@ const StyledLinkExternal = styled(LinkExternal)`
     padding-left: 4px;
     height: 18px;
     width: auto;
-    fill: rgb(215, 76, 200);
+    fill: rgb(241, 149, 169);
   }
 `
 

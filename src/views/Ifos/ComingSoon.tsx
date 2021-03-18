@@ -43,7 +43,7 @@ const MobileImage = styled.img`
 `
 
 const LiquidityLink = styled.a`
-  color: rgb(215, 76, 200);
+  color: rgb(241, 149, 169);
 `
 
 const ComingSoon = () => {

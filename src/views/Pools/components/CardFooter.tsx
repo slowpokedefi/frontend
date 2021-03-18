@@ -33,7 +33,7 @@ const StyledDetailsButton = styled.button`
   align-items: center;
   background-color: transparent;
   border: 0;
-  color: rgb(215, 76, 200);
+  color: rgb(241, 149, 169);
   cursor: pointer;
   display: inline-flex;
   font-size: 16px;
