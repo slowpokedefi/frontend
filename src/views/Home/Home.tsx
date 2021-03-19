@@ -60,7 +60,7 @@ const Home: React.FC = () => {
         <Heading as="h1" size="xl" mb="24px" color="rgb(241, 149, 169)">
           {TranslateString(576, 'To the Moon')}
         </Heading>
-        <Text color="rgb(241, 149, 169)">{TranslateString(578, 'Best FAFAFA in town.')}</Text>
+        <Text color="rgb(241, 149, 169)">{TranslateString(578, 'Best Pokémon in town.')}</Text>
       </Hero>
       <div>
         <Cards>
