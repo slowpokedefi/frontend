@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.goosedefi.com/',
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x62A9B39e3F851dE684954e0b013997A96De1f7C8',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.goosedefi.com/#/pool',
+        href: 'https://exchange.pancakeswap.finance/#/add/BNB/0x62A9B39e3F851dE684954e0b013997A96De1f7C8',
       },
     ],
   },
@@ -26,7 +26,7 @@ const config: MenuEntry[] = [
     href: '/farms',
   },
   {
-    label: 'Nests',
+    label: 'Gym',
     icon: 'PoolIcon',
     href: '/nests',
   },
@@ -51,19 +51,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0xf4Ab1ACbDD3232B5D9edcCE33e4f5e4453B9c08e',
-      },
-      {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/goose-finance',
-      },
-      {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/goose-finance/',
+        href: 'https://pancakeswap.info/token/0x62A9B39e3F851dE684954e0b013997A96De1f7C8',
       },
       {
         label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
+        href: 'https://app.astrotools.io/pancake-pair-explorer/0x62A9B39e3F851dE684954e0b013997A96De1f7C8',
       },
     ],
   },
@@ -73,15 +65,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/goosedefi/',
+        href: 'https://github.com/slowpokedefi/',
       },
       {
-        label: 'Docs',
-        href: 'https://goosedefi.gitbook.io/goose-finance/',
-      },
-      {
-        label: 'Blog',
-        href: 'https://goosefinance.medium.com/',
+        label: 'Medium',
+        href: 'https://slowpokefinance.medium.com/',
       },
     ],
   },
