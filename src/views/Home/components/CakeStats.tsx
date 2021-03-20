@@ -27,14 +27,14 @@ const CakeStats = () => {
   const totalSupply = useTotalSupply()
   const burnedBalance = useBurnedBalance(getCakeAddress())
   const farms = useFarms();
-  const eggPrice = usePriceCakeBusd();
+  const kingPrice = usePriceCakeBusd();
   const circSupply = totalSupply ? totalSupply.minus(burnedBalance) : new BigNumber(0);
   const cakeSupply = getBalanceNumber(circSupply);
-  const marketCap = eggPrice.times(circSupply);
+  const marketCap = kingPrice.times(circSupply);
 
-  let eggPerBlock = 0;
-  if(farms && farms[0] && farms[0].eggPerBlock){
-    eggPerBlock = new BigNumber(farms[0].eggPerBlock).div(new BigNumber(10).pow(18)).toNumber();
+  let kingPerBlock = 0;
+  if(farms && farms[0] && farms[0].kingPerBlock){
+    kingPerBlock = new BigNumber(farms[0].kingPerBlock).div(new BigNumber(10).pow(18)).toNumber();
   }
 
   return (
@@ -61,7 +61,7 @@ const CakeStats = () => {
         </Row>
         <Row>
           <Text fontSize="14px"color="rgb(241, 149, 169)">{TranslateString(540, 'New SLOW/block')}</Text>
-          <Text bold fontSize="14px"color="rgb(241, 149, 169)">{eggPerBlock}</Text>
+          <Text bold fontSize="14px"color="rgb(241, 149, 169)">{kingPerBlock}</Text>
         </Row>
       </CardBody>
     </StyledCakeStats>
