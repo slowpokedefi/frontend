@@ -28,7 +28,7 @@ const config: MenuEntry[] = [
   {
     label: 'Gym',
     icon: 'PoolIcon',
-    href: '/nests',
+    href: '/gym',
   },
   // {
   //   label: 'Pools',

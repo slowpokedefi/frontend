@@ -123,13 +123,13 @@
     {
       "data": {
         "stringId": 320,
-        "text": "Stake LP tokens to earn "
+        "text": "Stake LP tokens to earn KING"
       }
     },
     {
       "data": {
         "stringId": 322,
-        "text": "Stake Slow, get SYRUP."
+        "text": "Stake KING, get SYRUP."
       }
     },
     {
@@ -675,13 +675,13 @@
     {
       "data": {
         "stringId": 544,
-        "text": " to Harvest"
+        "text": "KING to Harvest"
       }
     },
     {
       "data": {
         "stringId": 546,
-        "text": " in Wallet"
+        "text": "KING in Wallet"
       }
     },
     {
@@ -1209,7 +1209,7 @@
     {
       "data": {
         "stringId": 10000,
-        "text": "Deposit Fee will be used to buyback "
+        "text": "Deposit Fee will be used to buyback KING"
       }
     },
     {
